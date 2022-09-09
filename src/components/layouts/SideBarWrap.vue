@@ -13,7 +13,7 @@
           text-color="#ffffff"
           height="100%"
       >
-        <div style="padding-top: 20px; padding-bottom: 10px">
+        <div style="padding-top: 20px; padding-bottom: 10px;text-align: center;">
           <el-icon v-if="isCollapse" @click="switchCollapse">
             <Expand/>
           </el-icon>

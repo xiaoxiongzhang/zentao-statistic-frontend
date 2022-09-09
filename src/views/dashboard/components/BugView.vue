@@ -147,8 +147,5 @@ export default {
 </script>
 
 <style scoped>
-.el-card {
-  height: 350px;
-  margin: 2px 5px;
-}
+
 </style>

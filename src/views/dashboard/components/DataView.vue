@@ -1,6 +1,6 @@
 <template>
   <h3 style="text-align: left">数据概览</h3>
-  <div>
+  <div style="text-align: center;">
     <div class="data-box">
       <el-card>
         <el-card shadow="hover" class="data-box-card">
@@ -99,10 +99,6 @@ export default {
 </script>
 
 <style scoped>
-.el-card {
-  height: 350px;
-  margin: 5px;
-}
 
 .data-box {
   width: 50%;
