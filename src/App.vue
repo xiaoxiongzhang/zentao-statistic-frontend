@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <layout-index></layout-index>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LayoutIndex from "@/components/layouts";
+import * as echarts from 'echarts'
+import {provide} from "vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    LayoutIndex
+  },
+  setup() {
+    provide('echarts', echarts)               //provide
+  },
 }
 </script>
 
@@ -20,7 +26,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /*color: #2c3e50;*/
+  height: 100%;
 }
 </style>
