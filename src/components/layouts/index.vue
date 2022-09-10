@@ -38,8 +38,9 @@ export default {
 <style scoped>
 .sidebar {
   border-radius: 5px;
-  width: auto;
   margin-top: 3px;
+  height: auto;
+  width: auto;
 }
 
 .header-c {
