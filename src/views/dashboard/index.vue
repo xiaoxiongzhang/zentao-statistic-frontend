@@ -1,25 +1,24 @@
 <template>
-  <el-container class="el-container-cs">
+  <el-container class="el-container-box">
     <el-main>
       <data-view></data-view>
     </el-main>
   </el-container>
-  <el-container class="el-container-cs">
+  <el-container class="el-container-box">
     <el-main>
       <iteration-view></iteration-view>
     </el-main>
   </el-container>
-  <el-container class="el-container-cs">
+  <el-container class="el-container-box">
     <el-main>
       <bug-view></bug-view>
     </el-main>
   </el-container>
-  <el-container class="el-container-cs">
+  <el-container class="el-container-box">
     <el-main>
       <rank-view></rank-view>
     </el-main>
   </el-container>
-
 </template>
 
 <script>
@@ -40,10 +39,5 @@ export default {
 </script>
 
 <style scoped>
-.el-container-cs {
-  background-color: white;
-  margin: 10px;
-  border-radius: 5px;
-}
 
 </style>

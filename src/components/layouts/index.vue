@@ -4,19 +4,13 @@
       <el-header class="header-c">
         <header-wrap></header-wrap>
       </el-header>
-      <el-container>
+      <el-container style="height: 89vh">
         <el-aside class="sidebar">
           <side-bar></side-bar>
         </el-aside>
-        <el-container>
-          <el-header class="header-in">
-            <p>header</p>
-          </el-header>
-
           <el-main class="main">
             <router-view></router-view>
           </el-main>
-        </el-container>
       </el-container>
     </el-container>
   </div>
@@ -31,7 +25,7 @@ export default {
   components: {
     SideBar,
     HeaderWrap
-  }
+  },
 }
 </script>
 
@@ -50,19 +44,10 @@ export default {
   border-radius: 5px;
 }
 
-.header-in {
-  text-align: left;
-  height: 45px;
-  margin: 5px 15px 0 15px;
-  background-color: white;
-  border-radius: 5px
-}
-
 .main {
   /*background-color: white;*/
-  margin: 0 5px 5px 5px;
+  margin: 5px;
   border-radius: 5px;
   padding: 0;
-
 }
 </style>

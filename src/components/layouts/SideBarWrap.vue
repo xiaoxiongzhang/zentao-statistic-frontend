@@ -2,7 +2,8 @@
 
   <div style="height: 100%">
     <el-menu
-        default-active="1"
+        router
+        default-active="/dashboard"
         class="el-menu-vertical el-menu-width"
         :collapse="isCollapse"
         @open="handleOpen"
@@ -20,37 +21,37 @@
           <Fold/>
         </el-icon>
       </div>
-      <el-menu-item index="1">
+      <el-menu-item index="/dashboard">
         <el-icon>
           <HomeFilled/>
         </el-icon>
         <template #title>看板</template>
       </el-menu-item>
-      <el-menu-item index="2">
+      <el-menu-item index="/project">
         <el-icon>
           <Menu/>
         </el-icon>
         <template #title>项目数据</template>
       </el-menu-item>
-      <el-menu-item index="3">
+      <el-menu-item index="/bug">
         <el-icon>
           <Histogram/>
         </el-icon>
         <template #title>BUG数据</template>
       </el-menu-item>
-      <el-menu-item index="4">
+      <el-menu-item index="/execution">
         <el-icon>
           <List/>
         </el-icon>
         <template #title>执行统计</template>
       </el-menu-item>
-      <el-menu-item index="5">
+      <el-menu-item index="/projectManagement">
         <el-icon>
           <Management/>
         </el-icon>
         <template #title>项目管理</template>
       </el-menu-item>
-      <el-menu-item index="6">
+      <el-menu-item index="/setting">
         <el-icon>
           <setting/>
         </el-icon>

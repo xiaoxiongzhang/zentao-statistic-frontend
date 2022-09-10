@@ -16,3 +16,12 @@ el-main {
     margin: 5px;
 }
 
+.el-container-box {
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.screen-height {
+    height: 98.5%;
+}
