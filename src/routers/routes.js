@@ -9,7 +9,26 @@ export default [
     {
         path: '/project',
         name: 'project',
-        component: () => import('@/views/project/index')
+        component: () => import('@/views/project/index'),
+        children: [
+            {
+                path: '',
+                name: 'tabs',
+                component: () => import('@/views/project/components/projectTabs'),
+            },
+            {
+                path: ':id/subsystem',
+                name: 'subsystem',
+                component: () => import('@/views/project/components/dataView'),
+                children: [
+                    {
+                        path: ':id/iteration',
+                        name: 'iteration',
+                        component: () => import('@/views/project/components/dataView'),
+                    },
+                ]
+            }
+        ]
     },
     {
         path: '/bug',

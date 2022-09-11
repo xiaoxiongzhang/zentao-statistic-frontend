@@ -11,6 +11,7 @@ const app = createApp(App)
 
 // plugins
 app.use(ElementPlus, {size: 'small', zIndex: 3000})
+console.log(router)
 app.use(router)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
