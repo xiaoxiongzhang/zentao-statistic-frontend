@@ -1,7 +1,7 @@
 <template>
   <h3 style="text-align: left">排行榜</h3>
   <div style="width: 33%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <template #header>
         <div style="display: inline-block; position: relative;">
           <h3>BUG创建排行</h3>
@@ -23,7 +23,7 @@
     </el-card>
   </div>
   <div style="width: 33%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <template #header>
         <div style="display: inline-block; position: relative;">
           <h3>BUG有效率排行</h3>
@@ -39,7 +39,7 @@
     </el-card>
   </div>
   <div style="width: 33%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <template #header>
         <div style="display: inline-block; position: relative;">
         <h3>BUG未解决排行</h3>

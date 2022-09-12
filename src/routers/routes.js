@@ -17,14 +17,19 @@ export default [
                 component: () => import('@/views/project/components/projectTabs'),
             },
             {
-                path: ':id/subsystem',
+                path: ':projectId/subsystem',
                 name: 'subsystem',
-                component: () => import('@/views/project/components/dataView'),
+                // component: () => import('@/views/project/components/subSystem'),
                 children: [
                     {
-                        path: ':id/iteration',
+                        path: '',
+                        name: 'subsystemIndex',
+                        component: () => import('@/views/project/components/subSystem'),
+                    },
+                    {
+                        path: ':systemId/iteration',
                         name: 'iteration',
-                        component: () => import('@/views/project/components/dataView'),
+                        component: () => import('@/views/project/components/iteration'),
                     },
                 ]
             }

@@ -1,23 +1,23 @@
 <template>
   <h3 style="text-align: left">BUG数据</h3>
   <div style="width: 40%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="bugPieChart" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>
   <div style="width: 60%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="bugBarChart" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>
 
   <div style="width: 50%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="bugBarChart2" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>
   <div style="width: 50%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="bugPieChart2" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>

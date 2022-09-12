@@ -11,7 +11,7 @@ el-main {
 
 }
 
-.el-card {
+.el-card-cs {
     height: 350px;
     margin: 5px;
 }
@@ -24,4 +24,9 @@ el-main {
 
 .screen-height {
     height: 98.5%;
+}
+
+.date-selector {
+    padding: 10px;
+    margin: 15px 5px;
 }

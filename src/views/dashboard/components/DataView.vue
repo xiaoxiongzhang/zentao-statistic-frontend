@@ -2,7 +2,7 @@
   <h3 style="text-align: left">数据概览</h3>
   <div style="text-align: center;">
     <div class="data-box">
-      <el-card>
+      <el-card class="el-card-cs">
         <el-card shadow="hover" class="data-box-card">
           <h4>进行中版本数</h4>
           <div class="left-text">
@@ -28,7 +28,7 @@
       </el-card>
     </div>
     <div class="data-box">
-      <el-card>
+      <el-card class="el-card-cs">
         <div id="lineChart" style="height: 300px; width: 100%"></div>
       </el-card>
     </div>

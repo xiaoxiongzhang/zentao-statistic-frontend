@@ -1,12 +1,12 @@
 <template>
   <h3 style="text-align: left">迭代版本</h3>
   <div style="width: 70%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="iterBarChart" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>
   <div style="width: 30%; display: inline-block">
-    <el-card>
+    <el-card class="el-card-cs">
       <div id="iterPieChart" style="height: 300px; width: 100%"></div>
     </el-card>
   </div>

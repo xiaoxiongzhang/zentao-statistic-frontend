@@ -3,11 +3,9 @@
     <template #empty>
       <el-empty description="无数据"/>
     </template>
-<!--    <el-table-column type="selection" align="center"></el-table-column>-->
 
     <el-table-column prop="name" label="项目名称" min-width="120" align="center" show-overflow-tooltip>
       <template #default="scope">
-<!--        <a :href="scope.row.name">{{ scope.row.name }}</a>-->
         <router-link to="/project/1/subsystem">{{ scope.row.name }}</router-link>
       </template>
     </el-table-column>

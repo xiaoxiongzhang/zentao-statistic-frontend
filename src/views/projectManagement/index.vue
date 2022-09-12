@@ -1,6 +1,6 @@
 <template>
-  <el-container class="el-container-box">
-    <el-empty style="position: relative; left: 45%" description="待开发..."/>
+  <el-container class="el-container-box screen-height">
+    <el-empty style="position: relative; left: 45%" description="开发中..."/>
   </el-container>
 </template>
 
