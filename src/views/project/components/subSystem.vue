@@ -237,7 +237,6 @@ export default {
         {
           data: [10, 22, 28, 23, 19],
           type: 'line',
-          smooth: true
         }
       ]
     })

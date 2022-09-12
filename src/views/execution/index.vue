@@ -2,7 +2,10 @@
   <el-container class="el-container-box screen-height">
     <el-main>
       <el-card style="margin: 5px 0">
-        <div>
+        <template #header>
+          <b>执行统计</b>
+        </template>
+        <div style="margin-top: 10px">
           <span style="font-size: 14px">子系统：</span>
           <el-input placeholder="子系统" style="width: 200px" clearable/>
 

@@ -2,6 +2,9 @@
   <el-container class="el-container-box screen-height">
     <el-main>
       <el-card style="margin: 5px 0">
+        <template #header>
+          <b>BUG数据</b>
+        </template>
         <div style="margin: 10px 0">
           <span style="font-size: 14px">Bug类型：</span>
           <el-select v-model="bugType" @change="bugTypeSelect" class="m-2" placeholder="Bug类型">
