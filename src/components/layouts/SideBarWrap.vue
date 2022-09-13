@@ -9,7 +9,6 @@
         @open="handleOpen"
         @close="handleClose"
         background-color="#545c64"
-        active-text-color="#fff000"
         text-color="#ffffff"
         height="100%"
     >
